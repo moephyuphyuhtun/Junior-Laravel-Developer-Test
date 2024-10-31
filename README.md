@@ -41,7 +41,7 @@
 1. **File Handling for Logos and Profiles:**
    - `store` images in the `storage/app/public` directory.
    - `ensure` they are accessible via a public URL `/storage`.
-   - `resize` uploaded logos automatically  to ensure they meet the minimum size requirement.
+   - `resize` uploaded logos automatically to ensure they meet the minimum (100X100) and maximum (600x600) requirement.
    - `use` Laravel Image Processing, e.g., `intervention/image`.
 
 2. **Implement Eloquent Relationships**
